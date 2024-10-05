@@ -1,0 +1,19 @@
+[book]
+authors = ["gibbz"]
+language = "en"
+multilingual = false
+src = "book"
+title = "basic-things-demo Documentation"
+
+[rust]
+edition = "2021"
+
+[build]
+build-dir = "target/book"
+
+[output.html]
+cname = "gibbz00.github.io"
+curly-quotes = true
+edit-url-template = "https://github.com/gibbz00/basic-things-demo/edit/main/{path}"
+git-repository-url = "https://github.com/gibbz00/basic-things-demo"
+preferred-dark-theme = "navy"
